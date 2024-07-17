@@ -16,13 +16,13 @@ const navigation = [
 export default function Hero() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
-    const handleDiscoverClick = (event: React.MouseEvent<HTMLDivElement>) => {
-        event.preventDefault()
-        const featuresSection = document.getElementById('features')
+    const handleDiscoverClick = (event: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
+        event.preventDefault();
+        const featuresSection = document.getElementById('features');
         if (featuresSection) {
             featuresSection.scrollIntoView({ behavior: 'smooth' });
         }
-    }
+    };
 
     return (
         <div className="bg-white">
