@@ -6,10 +6,10 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { ArrowPathIcon, CloudArrowUpIcon, FingerPrintIcon, LockClosedIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-    { name: 'Product', href: '#' },
+    { name: 'news', href: '#' },
     { name: 'Features', href: '#features' },
     { name: 'Marketplace', href: '/shop' },
-    { name: 'Company', href: '#' },
+    { name: 'Company', href: '/company' },
 ]
 
 const buttonThemeColor = "bg-yellow-500"
@@ -138,7 +138,7 @@ export default function Hero() {
                     </div>
                     <div className="text-center">
                         <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-                            The next level of home doorbell
+                            The next level of home doorbells
                         </h1>
                         <p className="mt-6 text-lg leading-8 text-gray-600">
                             Domophone is a brand new way to use your home doorbell ! Domophone include a lot

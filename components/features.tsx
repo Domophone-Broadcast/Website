@@ -23,7 +23,7 @@ const features = [
     {
         name: 'Fully open-source',
         description:
-            'Domophone is fully open-source and the softwares are free to use for any people.',
+            'Domophone is fully open-source and all the softwares are free to use for any people.',
         icon: CodeBracketIcon,
     },
     {
@@ -44,7 +44,7 @@ export default function Features() {
                         Take a look of all uniques features of Domophone
                     </p>
                     <p className="mt-7 text-lg leading-8 text-gray-600">
-                       Domophone had a lot of unique features !
+                       Domophone has a lot of unique features !
                     </p>
                 </div>
                 <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
